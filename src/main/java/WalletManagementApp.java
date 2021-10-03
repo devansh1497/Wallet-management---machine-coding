@@ -35,7 +35,6 @@ public class WalletManagementApp {
          * TransferMoney Hermione Harry 2
          * TransferMoney Albus Ron 5
          */
-        transactionService.pay("Albus", "Draco", 0.001);
         transactionService.pay("Albus", "Draco", 30);
         transactionService.pay("Hermoine", "Harry", 2);
         transactionService.pay("Albus", "Ron", 5);
